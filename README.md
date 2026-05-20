@@ -49,7 +49,7 @@ This project demonstrates how to configure IPv6 Access Control Lists (ACLs) in C
 
 ## ⚙️ Configuration Summary
 
-📍 ACL 2: BLOCK_ICMP (R3)
+## 📍 ACL 2: BLOCK_ICMP (R3)
 
 Blocks all ICMP traffic to Server3.
 
@@ -58,24 +58,44 @@ permit ipv6 any any
 
 📍 Applied closest to destination (Server3 network).
 
-🧪 Verification Steps
-✔ HTTP/HTTPS Test
-PC1 → Server3: Access allowed ✅
-PC2 → Server3: HTTP/HTTPS blocked ❌
-✔ ICMP Test
-PC1 → Server3: Ping fails ❌
-PC2 → Server3: Ping fails ❌
-✔ Web Access
-PC1 can still access server via browser ✅
-🔐 Key Learning Outcomes
-IPv6 ACL creation and deployment
-Difference between source vs destination placement
-DoS vs DDoS mitigation techniques
-Real-world network security filtering
-🚀 Tools Used
-Cisco Packet Tracer
-IPv6 Routing
-Access Control Lists (ACLs)
-📌 Author
 
-Cybersecurity & Cloud Networking Learner
+---
+
+##🧪 Verification Steps
+
+
+-##✔ HTTP/HTTPS Test
+-PC1 → Server3: Access allowed ✅
+-PC2 → Server3: HTTP/HTTPS blocked ❌
+-##✔ ICMP Test
+-PC1 → Server3: Ping fails ❌
+-PC2 → Server3: Ping fails ❌
+-##✔ Web Access
+-PC1 can still access server via browser ✅
+
+---
+
+##🔐 Key Learning Outcomes
+
+
+-IPv6 ACL creation and deployment
+-Difference between source vs destination placement
+-DoS vs DDoS mitigation techniques
+-Real-world network security filtering
+
+---
+
+
+##🚀 Tools Used
+
+
+-Cisco Packet Tracer
+-IPv6 Routing
+-Access Control Lists (ACLs)
+
+---
+
+##📌 Author
+-Muhammad Talha
+
+-Cybersecurity & Cloud Networking Learner
