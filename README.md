@@ -84,7 +84,7 @@ permit ipv6 any any
 ✔ HTTP/HTTPS Test
 
 
-PC1 → Server3: Access allowed ✅
+PC1 → Server3: Access allowed ✅.
 PC2 → Server3: HTTP/HTTPS blocked ❌
 
 
@@ -103,28 +103,28 @@ PC1 can still access server via browser ✅
 
 ---
 
-🔐 Key Learning Outcomes
+🔐 Key Learning Outcomes:
 
 
-IPv6 ACL creation and deployment
-Difference between source vs destination placement
-DoS vs DDoS mitigation techniques
-Real-world network security filtering
-
-
----
-
-🚀 Tools Used
-Cisco Packet Tracer
-IPv6 Routing
-Access Control Lists (ACLs)
+IPv6 ACL creation and deployment.
+Difference between source vs destination placement.
+DoS vs DDoS mitigation techniques.
+Real-world network security filtering.
 
 
 ---
 
-📌 Author
-Muhammad Talha
-Cybersecurity & Cloud Networking Learner
+🚀 Tools Used:
+Cisco Packet Tracer.
+IPv6 Routing.
+Access Control Lists (ACLs).
+
+
+---
+
+📌 Author:
+Muhammad Talha.
+Cybersecurity & Cloud Networking Learner.
 
 
 ---
